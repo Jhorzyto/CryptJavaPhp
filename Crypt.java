@@ -5,7 +5,7 @@ public class Crypt {
 
     public static void main(String args[]){
         try{
-            System.out.println(CryptSigUema.encrypt("Jhordan"));
+            System.out.println(CryptUema.encrypt("Jhordan"));
         } catch (Exception e){
             System.out.println(e.getMessage());
         }
